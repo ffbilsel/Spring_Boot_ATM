@@ -1,10 +1,9 @@
-package com.example.atm.model.request;
+package com.example.atm.controller.request;
 
 import lombok.Data;
 
 @Data
 public class TransactionWithRecipient {
-    private Long clientId;
     private Long recipientId;
     private Long quantity;
 }
